@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: todo-app
+    
+  datasource:
+    url: jdbc:mysql://database-1.ctrejkhmcd96.us-east-1.rds.amazonaws.com:3306/hr
+    username: anindya
+    password: maitra&5706
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
